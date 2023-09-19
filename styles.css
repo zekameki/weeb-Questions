@@ -1,0 +1,81 @@
+body {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/694/454/371/anime-your-name-kimi-no-na-wa-wallpaper-preview.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  color: #ffffff; /* White */
+  font-family: "Times New Roman", Times, serif;
+}
+
+#title {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: darkslateblue;
+  margin-top: 20px;
+}
+
+#description {
+  font-size: 16px;
+  text-align: center;
+  color: white;
+}
+
+#survey-form {
+  width: 80%;
+  margin: 0 auto;
+  background: none;
+  padding: 20px;
+  border-radius: 0;
+  box-shadow:none;
+  background-repeat: no-repeat;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+#submit {
+  background-color: #2b2b2b;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+a {
+  color: #2b2b2b;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+  

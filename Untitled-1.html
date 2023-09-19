@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weeb Questions</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 id="title">Weeb Questions</h1>
+  <p id="description">Okay weebs, now I'm going to ask you a couple of questions.</p>
+  <form id="survey-form">
+    <label for="name">
+      Name:
+      <input id="name" type="text" placeholder="Your name" required>
+    </label>
+
+    <label for="email">
+      Email:
+      <input id="email" type="email" placeholder="Your email" required>
+    </label>
+
+    <label for="number">
+      Age:
+      <input id="number" type="number" min="0" max="50" required placeholder="Year">
+    </label>
+
+    <label for="dropdown">
+      What's your favorite genre?
+      <select id="dropdown">
+        <option value="">Select one</option>
+        <option value="romance">Romance</option>
+        <option value="slice-of-life">Slice of Life</option>
+        <option value="action">action</option>
+        <option value="shonen">shonen</option>
+        <option value="shonen">shonen</option>
+        <option value="mecha">mache</option>
+        <option value="horor">horor</option>
+        <option value="sci-fi">sci-fi</option>
+        <option value="drama">drama</option>
+        <option value="fantasy">fantasy</option>
+        <option value="comedy">comedy</option>
+        <option value="ecchi">ecchi</option>
+        <option value="harem">harem</option>
+        <!-- Add more genre options here -->
+      </select>
+    </label>
+
+    <label for="dropdown">
+      What you want to know more about anime?
+      <select id="dropdown">
+        <option value="">Select one</option>
+        <option value="easter egg">easter egg</option>
+        <option value="plot line story">plot line story</option>
+        <option value="recomendation">recomendation</option>
+        <option value="fact">fact</option>
+        <option value="other">other</option>
+        <option value="textterea"><textarea id="why" name="why" rows="3" cols="30" placeholder="other"></textarea>
+        </option>
+      </select>
+    </label>
+
+    <fieldset>
+      <legend>Are you a weeb?</legend>
+      <label for="of-course">
+        <input id="of-course" type="radio" name="account-type" value="of-course"> Of Course
+      </label>
+      <label for="maybe">
+        <input id="maybe" type="radio" name="account-type" value="maybe"> Maybe
+      </label>
+      <label for="no">
+        <input id="no" type="radio" name="account-type" value="no"> No
+      </label>
+    </fieldset>
+
+
+
+    <label for="why">
+      What makes that anime your favorite?
+      <textarea id="why" name="why" rows="3" cols="30" placeholder="What makes you like that anime"></textarea>
+    </label>
+
+    <input id="submit" type="submit" value="Submit">
+    <a href="styles.css">Terms and Conditions</a>
+  </form>
+</body>
+
+</html>
