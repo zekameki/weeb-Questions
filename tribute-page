@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Leonardo da Vinci</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main id="main">
+            <title id="title">Histoty of Leonardo da Vinci</title>
+            <figure id="img-div">
+                <h1>Leonardo da Vinci</h1>
+                <img id="image"></img>
+          <div id="img-caption">the famous artis in 14th century</div>
+          <img id="image" src="https://www.leonardodavinci.net/images/leonardo-da-vinci.jpg" alt="A sketch of Leonardo di ser Piero da Vinci">
+                <p id="img-caption">This is a sketch of Leonardo di ser Piero da Vinci</p>
+                <a id=>
+          <div id="tribute-info">Here are some facts about Leonardo da Vinci</div>
+          <fieldset>
+                    <ul>
+                        <li>Leonardo da Vinci was born on April 15, 1452, in Anchiano, Italy</li>
+                        <li>Died: May 2, 1519, Château du Clos Lucé, Amboise, France</li>
+                    
+                        <li>Periods: Renaissance, Italian Renaissance, High Renaissance</li>
+                    
+                        <li>Influenced by: Andrea del Verrocchio, Lorenzo de' Medici, John Argyropoulos</li>
+                    
+                        <li>Siblings: Guglielmo Ser Piero, Violante di Ser Piero da Vinci, MORE
+        </li>
+        <l\7i>Place of burial: Chapel of Saint-Hubert, Amboise, France</li>
+                    </ul>
+                </fieldset>
+            </div>
+          <p>if you want to know more about here is Leonardo da Vinci<a id="tribute-link" href="https://en.wikipedia.org/wiki/Leonardo_da_Vinci" target="_blank"> wikipedia</p>
+          </a>
+                </figure>
+        </main>   
+    </body>
+</html>>
